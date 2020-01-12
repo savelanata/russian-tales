@@ -6,6 +6,6 @@ Pelissä lapset tutustuvat suomen ja venäjän kielen yksinkertaisiin verbeihin 
 
 Osalistuin “Venäjän kielen oppiminen on helppoa ja yksinkertaista Suomessa” -hankessa, joka toteutettiin Venäjän opetusministeriön tuella. Hankkeessa kehitettiin opetukseen liittyvää tietoa Venäjästä sisältäviä online-pelejä.
 
-10 uutta pelia
+Olen tehnyt 10 uutta pelia
 
 http://www.mosaiikki.info/rufi/fi/lapsille/uusia-peleja/
