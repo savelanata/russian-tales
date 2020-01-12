@@ -1,4 +1,7 @@
 # russian-tales
+
+Opitaan verbejä venäläisten satujen sankarien kanssa
+
 http://www.mosaiikki.info/rufi/fi/lapsille/uusia-peleja/venajan-kulttuuri/verbit-sadut/
 
 Pelissä lapset tutustuvat suomen ja venäjän kielen yksinkertaisiin verbeihin ja oppivat käyttämään niitä. Peli herättää kiinnostusta venäläiseen kulttuuriin venäläisten satujen sankarien kautta. Peli on suunnattu ala- ja yläasteikäisille lapsille. Pelissä on käytetty  taiteilija Elena Krushelnitskayan piirroksia.
