@@ -1,0 +1,13 @@
+.NameStartFin, .NameStartRus {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    width: 420px;
+    height: 250px;
+}
+.NameStartFin {
+    background-image: url(../../interface/Start/NameFin.png);
+}
+.NameStartRus {
+    background-image: url(../../interface/Start/NameRus.png);
+    }
