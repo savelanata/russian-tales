@@ -1,0 +1,221 @@
+﻿.Button {
+    position: absolute;
+    color: white;
+    opacity: 1;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 3px 1px 2px #945a2e;
+    -moz-box-shadow: 2px 3px 1px 2px #945a2e;
+    box-shadow: 2px 3px 1px 2px #945a2e;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.Button:active {
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px);
+    }
+
+.Button:hover {
+        opacity: .9;
+        cursor: url(../../interface/Cursor/0.cur),move;
+        -webkit-animation: effect 0.3s infinite ease;
+        animation: effect 0.2s infinite ease;
+    }
+
+
+.Russia {
+    background-color: #663300;
+    width: 140px;
+    top: 440px;
+    left: 510px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.Finland {
+    background-color: #663300;
+    width: 140px;
+    top: 440px;
+    left: 350px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+
+.Start, .Continue, .UusiPeli {
+    background-color: #cc6633;
+    border-radius: 10px;
+    border: solid 4px #663300;
+    width: 300px;
+    height: 50px;
+    left: 350px;
+    line-height: 50px;
+    top: 520px;
+    font-size: 30px;
+}
+
+.ActiveLang {
+    background-color: #fdaf3a;
+    color: #663300;
+}
+ 
+.NavbarClose {
+    background-color: #e31409;
+    top: 10px;
+    
+    width: 40px;
+    left: 645px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.NavbarFi {
+    background-color: #1785e6;
+    top: 10px;
+    
+    width: 40px;
+    left: 545px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.NavbarRu {
+    background-color: #1785e6;
+    top: 10px;
+    
+    width: 40px;
+    left: 500px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+
+.NavbarInfo {
+    background-color: #fa720a;
+    top: 10px;
+    
+    width: 40px;
+    left: 600px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.ActiveFi {
+   background-color: #fa720a;
+}
+
+.ActiveRu {
+   background-color: #fa720a;
+}
+
+.Continue {
+     top: 560px;
+    left: 235px;
+}
+
+
+.UusiPeli {
+    width: 360px;
+    left: 210px;
+    top: 550px;
+}
+
+.btYes, .btNo {
+    background-image: url(../../interface/Button/bgButton.png);
+    width: 100px;
+    top: 520px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    text-shadow: black 2px 2px 0, white -2px -2px 0, white -2px 2px 0, white 2px -2px 0;
+
+    left: 420px;
+    color: green;
+}
+.btNo {
+    left: 535px;
+    color: red;
+}
+
+.Question {
+    background-image: url(../../interface/Button/Question.png);
+    width: 146px;
+    height: 146px;
+    top: 270px;
+    left: 460px;
+    box-shadow: none;
+}
+@-webkit-keyframes effect {
+    0% {
+        cursor: url(../../interface/Cursor/0.cur),move;
+    }
+
+    25% {
+        cursor: url(../../interface/Cursor/1.cur),move;
+    }
+
+    50% {
+        cursor: url(../../interface/Cursor/2.cur),move;
+    }
+
+    75% {
+        cursor: url(../../interface/Cursor/3.cur),move;
+    }
+
+    100% {
+        cursor: url(../../interface/Cursor/0.cur),move;
+    }
+}
+
+@-moz-keyframes effect {
+    0% {
+        cursor: url(../../interface/Cursor/0.cur),move;
+    }
+
+    25% {
+        cursor: url(../../interface/Cursor/1.cur),move;
+    }
+
+    50% {
+        cursor: url(../../interface/Cursor/2.cur),move;
+    }
+
+    75% {
+        cursor: url(../../interface/Cursor/3.cur),move;
+    }
+
+    100% {
+        cursor: url(../../interface/Cursor/0.cur),move;
+    }
+}
+
+@keyframes effect {
+    0% {
+        cursor: url(../../interface/Cursor/0.cur),move;
+    }
+
+    25% {
+        cursor: url(../../interface/Cursor/1.cur),move;
+    }
+
+    50% {
+        cursor: url(../../interface/Cursor/2.cur),move;
+    }
+
+    75% {
+        cursor: url(../../interface/Cursor/3.cur),move;
+    }
+
+    100% {
+        cursor: url(../../interface/Cursor/0.cur),move;
+    }
+}
+
+
+
