@@ -1,0 +1,11 @@
+﻿{
+  "short_name": "Russian tales",
+  "name": "Учим глаголы с героями русских сказок. Opimme verbejä venäläisten satujen sankarien kanssa.",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "ie >= 9"
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
