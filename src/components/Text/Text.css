@@ -1,0 +1,90 @@
+.GameName {
+    position: absolute;
+    font-size: 32px;
+    color: #663300;
+    top: 80px;
+    width: 600px;
+    left: 90px;
+    text-align: center;
+    text-shadow: white 3px 3px 0, white -3px -3px 0, white -3px 3px 0, white 3px -3px 0;
+}
+
+.Welcome {
+    position: absolute;
+    font-size: 26px;
+    text-shadow: white 2px 2px 0, white -2px -2px 0, white -2px 2px 0, white 2px -2px 0;
+    color: #663300;
+    top: 395px;
+    left: 350px;
+    width: 300px;
+    text-align: center;
+}
+
+.GameQuestion {
+    position: absolute;
+    font-size: 28px;
+    color: #333333;
+    top: 165px;
+    left: 50px;
+    width: 500px;
+}
+.GameInfo {
+    position: absolute;
+    font-size: 18px;
+    color: #875434;
+    top: 485px;
+    left: 20px;
+    text-align: center;
+    width: 640px;
+}
+    
+.GameTitle {
+    position: absolute;
+    font-size: 36px;
+    font-family: sans-serif;
+    top: 15px;
+    width: 450px;
+    left: 20px;
+    text-align: left;
+    font-weight: normal;
+ }
+
+.HowToPlay {
+    position: absolute;
+    font-size: 30px;
+    top: 100px;
+    width: 400px;
+    left: 200px;
+    text-align: center;
+    color: #993300;
+}
+
+.HowToPlayText {
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+    width: 600px;
+    left: 90px;
+    text-align: center;
+    color: #993300;
+}
+
+.wordPlace {
+    position: absolute;
+    top: 110px;
+    left: 5px;
+    width: 255px;
+    height: 150px;
+    color: #663300;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.wrongAnswer, goodAnswer {
+    position: absolute;
+    font-size: 20px;
+    top: 150px;
+    width: 600px;
+    left: 90px;
+    text-align: center;
+    color: #993300;
+}
