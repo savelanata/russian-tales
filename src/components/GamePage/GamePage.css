@@ -1,0 +1,138 @@
+﻿.GameNext {
+    position: absolute;
+    background-image: url(../../interface/Button/Next.png);
+    background-position: center;
+    top: 580px;
+    left: 600px;
+    height: 40px;
+    width: 60px;
+} 
+.GamePrev {
+		position: absolute;
+		background: url(../../interface/Button/Prev.png) no-repeat;
+		background-position: center;
+		top: 580px;
+		left: 120px;
+		height: 40px;
+		width: 60px;
+}
+.Card1, .Card2, .Card3, .Card4, .Card5 {
+    position: absolute;
+    background-image: url(../../interface/Card/bgCard.png);
+    top: 210px;
+    left: 115px;
+    width: 265px;
+    height: 295px;
+}
+
+.Card1, .Card3 {
+    background-image: url(../../interface/Card/frontCard.png);
+}
+.Card3, .Card4, .Card5 {
+    left: 400px;
+}
+
+.AnswerPlace {
+    position: absolute;
+    background: url(../../interface/Button/bgButton.png) content-box;
+    border: solid 1px #5d5527;
+    border-radius: 10px;
+    top: 520px;
+    left: 115px;
+    min-width: 260px;
+    padding: 0 3px 0 3px;
+    height: 50px;
+    line-height: 50px;
+    color: #006600;
+    text-shadow: black 1px 1px 0, white -2px -2px 0, white -2px 2px 0, white 2px -2px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.AnswerHidden {
+    position: absolute;
+    background: url(../../interface/Card/bgAnswer.png) content-box;
+    border: solid 2px #7b7b4e;
+    border-radius: 10px;
+    top: 520px;
+    left: 115px;
+    width: 260px;
+    height: 50px;
+}
+
+.gameImg {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 220px;
+    height: 260px;
+}
+.wordPlace {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    width: 255px;
+    height: 150px;
+    color: #663300;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.wellDone {
+    position: absolute;
+    top: 380px;
+    left: 420px;
+    width: 220px;
+    height: 250px;
+    color: #4fb026;
+    font-size: 24px;
+    font-weight: bolder;
+    
+}
+.bad {
+    position: absolute;
+    top: 380px;
+    left: 420px;
+    width: 220px;
+    height: 250px;
+    color: #ca1b1b;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.Stars {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 370px;
+    left: 440px;
+    background: url(../../interface/Star/stars1.gif);
+}
+.GameNext:hover, .GamePrev:hover {
+    opacity: .9;
+    cursor: url(../../interface/Cursor/0.cur),move;
+    -webkit-animation: effect 0.3s infinite ease;
+    animation: effect 0.2s infinite ease;
+}
+.imgWellDone {
+    position: absolute;
+    background-image: url(../../interface/Smails/smailWellDone.png) ;
+    width: 38px;
+    height: 40px;
+    top: 35px;
+    left: 90px;
+}
+.imgWrong {
+    position: absolute;
+    background-image: url(../../interface/Smails/smailWrong.png);
+    width: 38px;
+    height: 40px;
+    top: 35px;
+    left: 90px;
+}
+.redText {
+    color: #ff0000;
+}
+
+.colorText {
+    color: #403f3f;
+}
+ 
